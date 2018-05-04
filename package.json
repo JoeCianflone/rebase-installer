@@ -1,0 +1,17 @@
+{
+  "name": "rebase-installer",
+  "version": "0.1.0",
+  "description": "Getting even more shit done",
+  "scripts": {
+    "re:new": ".bin/rebase-new.js"
+  },
+  "bin": {
+    "re:new": ".bin/rebase-new.js"
+  },
+  "author": "Joe Cianflone",
+  "license": "MIT",
+  "dependencies": {
+    "download-git-repo": "^1.0.2",
+    "shelljs": "^0.8.1"
+  }
+}
