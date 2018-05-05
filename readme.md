@@ -23,8 +23,10 @@ So let it do its thing, it won't take long. Once it's done you're ready to start
 There's literally one command here. I didn't even make a `--help` because that would have taken more time than I gave a shit to do for this thing.
 
 ```bash
-$ re:new <folder>
+$ re:new <folder> --<yarn|npm>
 ```
+
+By default I assume you use NPM, but you can use yarn if you'd like too.
 
 That's it.
 
@@ -41,6 +43,36 @@ $ re:new silly-project
 Done. That's it.
 
 Now you'll have a new folder called `~/sites/silly-project` with all your shit ready to go.
+
+### What about `yarn`?
+
+```bash
+$ re:new silly-project --yarn
+```
+
+### What about if I'm already in the folder?
+
+Srly?
+
+```bash
+$ re:new
+```
+
+That'll just drop everything in an *empty* folder.
+
+### What about...
+
+Oy! Yes!
+
+```bash
+$ re:new --yarn
+```
+
+That uses `yarn` and drops everything in the current directory.
+
+### What if I have something in that folder already?
+
+Nope. The installer will kick you out. The folder needs to be empty, we're not going to overwrite stuff you gotta manually clone the [rebase](https://github.com/joecianflone/rebase) project in this case.
 
 Fin.
 
