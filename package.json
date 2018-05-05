@@ -1,17 +1,26 @@
 {
-  "name": "rebase-installer",
-  "version": "0.1.0",
-  "description": "Getting even more shit done",
-  "scripts": {
-    "re:new": ".bin/rebase-new.js"
-  },
-  "bin": {
-    "re:new": ".bin/rebase-new.js"
-  },
-  "author": "Joe Cianflone",
-  "license": "MIT",
-  "dependencies": {
-    "download-git-repo": "^1.0.2",
-    "shelljs": "^0.8.1"
-  }
+   "name": "rebase-installer",
+   "version": "0.1.0",
+   "description": "When you need shit to help you get shit done",
+   "author": "Joe Cianflone",
+   "email": "joe@cianflone.co",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/joecianflone/rebase-installer"
+   },
+   "bugs": {
+      "url": "https://github.com/joecianflone/rebase-installer/issues"
+   },
+   "homepage": "https://joecianflone.co/rebase-installer",
+   "license": "MIT",
+   "scripts": {
+      "re:new": ".bin/rebase-new.js"
+    },
+    "bin": {
+      "re:new": ".bin/rebase-new.js"
+    },
+   "dependencies": {
+      "download-git-repo": "^1.0.2",
+      "shelljs": "^0.8.1"
+    }
 }
