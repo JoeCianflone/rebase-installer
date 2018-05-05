@@ -4,6 +4,7 @@
    "description": "When you need shit to help you get shit done",
    "author": "Joe Cianflone",
    "email": "joe@cianflone.co",
+   "main": ".bin/rebase-new.js",
    "repository": {
       "type": "git",
       "url": "https://github.com/joecianflone/rebase-installer"
