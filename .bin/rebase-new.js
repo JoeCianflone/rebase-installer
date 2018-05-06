@@ -21,10 +21,11 @@ if (process.argv[3] !== undefined) {
    }
 }
 
-if (shell.ls().length > 0) {
+if (path == '' && shell.ls().length > 0) {
    console.log (`folder ${path} isn't empty...aborting`);
    process.exit()
 }
+
 
 console.info('Downloading some shit...');
 download('github:joecianflone/rebase', `${process.cwd()}/${path}`, (err) => {
